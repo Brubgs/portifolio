@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+* {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: rgb(255, 212, 212);
+  height: 100vh;
+}
+
+.cabecalho {
+  background-color: rgb(50, 0, 0);
+  color: white;
+  margin: 0;
+  padding: 15px;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.navegacao {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.navegacao a{
+  text-decoration: none;
+  color: white;
+}
+
+.navegacao a:hover{
+  color:  rgb(217, 46, 46);
+  cursor: pointer;
+}
+
+.conteudo {
+  text-align: center;
+  margin-top: 80px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.conteudo h1{
+  font-size: 25px;
+}
+
+.conteudo .imagem {
+  max-width: 65%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.conteudo button {
+  background-color: rgb(50, 0, 0);
+  
+  margin: 0 5px;
+  padding: 5px;
+  width: 100px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.conteudo button a{
+  text-decoration: none;
+  color: rgb(255, 212, 212);
+}
+
+.conteudo button:hover {
+  background-color: rgb(187, 49, 49);
+  cursor: pointer;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.rodape {
+  background-color: rgb(50, 0, 0);
+  color: white;
+  padding: 15px 0px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  margin-top: 80px;
+}
+
+.projetos {
+  text-align: center;
+  margin-top: 30px;
+}
