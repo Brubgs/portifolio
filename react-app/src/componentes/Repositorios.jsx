@@ -6,8 +6,10 @@ function Repositorios() {
         <>
             <div className="projetos">
                 <h2>Projetos</h2>
-                <p>Aqui vão ter repositórios do github</p>
-                <p>teste commit</p>
+                <p>Abaixo estão alguns dos meus projetos</p>
+                <div className="cardProjetos">
+                    
+                </div>
             </div>
         </>
     )
